@@ -12,12 +12,34 @@
     <link rel="shortcut icon" href="icon/favicon.ico">
     <link id="theme-style" rel="stylesheet" href="css/theme/theme-1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fileinput.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="themes/explorer-fa/theme.css">
+
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/style-switcher.js"></script>
     <script defer src="js/all.js"></script>
+
     <script type="text/javascript" src="js/index/index.js"></script>
+    <script src="js/fileinput.js"></script>
+    <script src="js/plugins/sortable.js"></script>
+    <script src="themes/explorer-fa/theme.js"></script>
+    <script src="js/locales/zh.js"></script>
+    <script src="js/upFile.js"></script>
+    <style>
+        .form-control:focus {
+            border-color: transparent;
+            box-shadow: 0px 0px 3px #3dba52;
+            border-color: green;
+        }
+
+        textarea {
+            resize: none;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -70,49 +92,41 @@
             </ul>
 
             <div class="my-2 my-md-3">
-                <a class="btn btn-primary" href="post.html" id="id-a-columnBtn"></a>
+                <a class="btn btn-primary" href="#" id="id-a-columnBtn"></a>
             </div>
         </div>
     </nav>
 </header>
-<div class="main-wrapper">
-    <section class="cta-section theme-bg-light py-5">
-        <div class="container text-center">
-            <div class="container text-center">
-                <div class="container text-center">
-                    <h2 class="heading">欢迎到我的博客</h2>
-                </div>
-            </div>
+
+
+<div class="main-wrapper" style="margin-top: 50px">
+
+
+    <form action="http://localhost:8888/sys/article/postArticle" method="post">
+        <input type="hidden" name="artChannel" value="article">
+        <input type="hidden" name="artStatus" value="已发布">
+
+        <div style="margin-left: 10%; width: 80%">
+            <input class="file" id="file-pic" name="uploadImgFile" type="file" data-browse-on-zone-click="true" value="上传" multiple/>
         </div>
-    </section>
 
-    <section class="blog-list px-3 py-5 p-md-5">
-        <div class="container" id="id-div-articleList"></div>
-    </section>
+        <div class="input-group"
+             style="width: 80%; margin-top:5px; margin-left: 10%; text-align: center;vertical-align: middle"
+             align="center;">
+            <input type="text" class="form-control" placeholder="请输入标题...(限20个字)"
+                   maxlength="20" name="artTitle">
+        </div>
+
+        <div class="input-group" style="width: 80%; margin-top: 10px; margin-left: 10%;">
+            <textarea class="form-control" type="text" style="width: 100%; height: 500px; padding: 10px"
+                      placeholder="请输入内容..." name="artContent"></textarea>
+        </div>
+
+        <div class="input-group" style="width: 80%; margin-top: 10px; margin-left: 10%; ">
+            <button type="submit" class="btn btn-success" style="width: 100%;">发布文章</button>
+        </div>
+    </form>
 </div>
-
-<!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
-<div id="config-panel" class="config-panel d-none d-lg-block">
-    <div class="panel-inner">
-        <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i
-                class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6"></i></a>
-        <h5 class="panel-title">Choose Colour</h5>
-        <ul id="color-options" class="list-inline mb-0">
-            <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
-            <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
-            <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
-            <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
-            <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
-            <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
-            <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
-            <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
-        </ul>
-        <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-    </div><!--//panel-inner-->
-</div><!--//configure-panel-->
-
-<!-- Javascript -->
-
 </body>
 </html> 
 
