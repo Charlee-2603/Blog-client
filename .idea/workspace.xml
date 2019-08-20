@@ -2,110 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f69ea8a-319a-489d-b2db-ffd46ec96d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/fileinput-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fileinput-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/LANG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/cr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/uz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/locales/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins/piexif.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins/piexif.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins/purify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins/purify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins/sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins/sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/upFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fa/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fa/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fa/theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fa/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fas/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fas/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fas/theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer-fas/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer/theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/explorer/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/fa/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/fa/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/fas/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/fas/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/gly/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/gly/theme.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-6.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-7.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/theme-8.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme/theme-8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hamburger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hamburger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/style-switcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/style-switcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/upFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/upFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,11 +65,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.post.html">
-    <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/about.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.blog-post.html">
+    <configuration name="blog-list.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/blog-list.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="blog-list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/blog-list.html" useBuiltInWebServerPort="true">
+    <configuration name="blog-post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/blog-post.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/index.html" useBuiltInWebServerPort="true">
@@ -182,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.post.html" />
+        <item itemvalue="JavaScript Debug.blog-post.html" />
+        <item itemvalue="JavaScript Debug.blog-list.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.post.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.about.html" />
-        <item itemvalue="JavaScript Debug.blog-list.html" />
       </list>
     </recent_temporary>
   </component>
@@ -204,10 +108,34 @@
       <workItem from="1565745558448" duration="4868000" />
       <workItem from="1565745674497" duration="18205000" />
       <workItem from="1565772951884" duration="19800000" />
+      <workItem from="1566197497977" duration="11041000" />
     </task>
+    <task id="LOCAL-00001" summary="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善">
+      <created>1566197052318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566197052318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善" />
   </component>
 </project>

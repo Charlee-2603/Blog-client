@@ -61,11 +61,11 @@
                     <br>
                 </div>
                 <ul class="social-list list-inline py-3 mx-auto">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href="https://stackoverflow.com/" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen fa-fw"></i></a></li>
                 </ul>
                 <hr>
             </div>
@@ -100,14 +100,12 @@
 
 
 <div class="main-wrapper" style="margin-top: 50px">
-
-
-    <form action="http://localhost:8888/sys/article/postArticle" method="post">
+    <form action="http://localhost:8888/sys/article/postArticle" method="post" enctype="multipart/form-data">
         <input type="hidden" name="artChannel" value="article">
         <input type="hidden" name="artStatus" value="已发布">
 
         <div style="margin-left: 10%; width: 80%">
-            <input class="file" id="file-pic" name="uploadImgFile" type="file" data-browse-on-zone-click="true" value="上传" multiple/>
+            <input id="input-b6" name="articleFile" type="file" data-msg-placeholder=请选择文章标题图片...>
         </div>
 
         <div class="input-group"

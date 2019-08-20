@@ -47,18 +47,21 @@ $(function () {
             $.each(articleList, function (i, val) {
                 $("#id-div-articleList").append("<div class='item mb-5'>" +
                     "<div class='media'>" +
+                    "<input type='hidden' id='id-article'>" +
                     "<img id='id-img-titleImg' class='mr-3 img-fluid post-thumb d-none d-md-flex' alt='image'>" +
                     "<div class='media-body'>" +
-                    "<h3 class='title mb-1'><a href='#' id='id-h3-title'></a></h3>" +
+                    "<h3 class='title mb-1'><a href='blog-post.html' id='id-h3-title'></a></h3>" +
                     "<div class='meta mb-1'><span class='date' id='id-span-time'></span><span class='time' id='id-span-clickCount'>" +
                     "</span><span class='comment'><a id='id-span-comment'></a></span></div>" +
                     "<div class='intro' id='id-div-artContent'></div>" +
-                    "<a class='more-link' href='#'>阅读更多 &rarr;</a>" +
+                    "<a class='more-link' href='blog-post.html'>阅读更多 &rarr;</a>" +
                     "</div>" +
                     "</div>" +
                     "</div>");
+                $("#id-article").attr("id", "id-article" + i);
+                $("#id-article" + i).attr("value", articleList[i].artId);
                 $("#id-img-titleImg").attr("id", "id-img-titleImg" + i);
-                $("#id-img-titleImg" + i).attr("src", articleList[i].artTitleImg);
+                $("#id-img-titleImg" + i).attr("src", articleList[i].artTitleImgURL);
                 $("#id-h3-title").attr("id", "id-h3-title" + i);
                 $("#id-h3-title" + i).text(articleList[i].artTitle);
                 $("#id-span-time").attr("id", "id-span-time" + i);
