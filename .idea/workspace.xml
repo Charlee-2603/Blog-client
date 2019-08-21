@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f69ea8a-319a-489d-b2db-ffd46ec96d66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/common/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/upFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/upFile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.blog-post.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="blog-list.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/blog-list.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -86,9 +86,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.blog-post.html" />
         <item itemvalue="JavaScript Debug.blog-list.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.post.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -108,7 +108,8 @@
       <workItem from="1565745558448" duration="4868000" />
       <workItem from="1565745674497" duration="18205000" />
       <workItem from="1565772951884" duration="19800000" />
-      <workItem from="1566197497977" duration="11041000" />
+      <workItem from="1566197497977" duration="11344000" />
+      <workItem from="1566349326440" duration="29773000" />
     </task>
     <task id="LOCAL-00001" summary="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善">
       <created>1566197052318</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566197052318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="上传文件功能完善">
+      <created>1566299682906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566299682906</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +136,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -136,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善" />
+    <MESSAGE value="上传文件功能完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传文件功能完善" />
   </component>
 </project>
