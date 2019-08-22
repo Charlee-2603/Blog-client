@@ -12,14 +12,27 @@
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
     <script type="text/javascript" defer src="js/all.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/style-switcher.js"></script>
     <script type="text/javascript" src="js/index/index.js"></script>
 
     <script>
+        // 下一篇的文章id
+        let nextArtId;
+
+        // 上一篇的文章id
+        let prvArtId;
+
         $(function () {
             var artId = getUrlParam('artId');
+            articleDetails(artId);
+        });
+
+
+        function articleDetails(artId) {
+            if (artId == "" || artId == null) {
+                window.location.href = "index.html";
+            }
             var hurl = "http://localhost:8888/sys/article/details";
             $.ajax({
                 type: 'Get',
@@ -30,8 +43,15 @@
                 },
                 success: function (e) {
                     var data = JSON.parse(e);
+
+                    // 上一篇的文章id
+                    prvArtId = data.prvArtId;
+
+                    // 下一篇的文章id
+                    nextArtId = data.nextArtId;
+
                     if (data.type = "success") {
-                        article = data.Article;
+                        var article = data.Article;
                         console.log(article);
                         $("#id-artTitle").text(article.artTitle);
                         $("#id-artCreateTime").text(subCreateTime(article.artCreateTime));
@@ -42,20 +62,7 @@
                     }
                 },
             });
-
-            /**
-             * 获取url中artId的参数
-             * @param article
-             * @returns {string|null}
-             */
-            function getUrlParam(article) {
-                var reg = new RegExp("(^|&)" + article + "=([^&]*)(&|$)");  //构造一个含有目标参数的正则表达式对象
-                var r = window.location.search.substr(1).match(reg); //匹配目标参数
-                if (r != null)
-                    return unescape(r[2]);
-                return null;
-            }
-        });
+        }
     </script>
 </head>
 
@@ -232,13 +239,12 @@
                 <!--                <div class="embed-responsive embed-responsive-16by9">-->
                 <!--                    video-->
                 <!--                </div>-->
-
                 <!--            </div>-->
 
                 <nav class="blog-nav nav nav-justified my-5">
-                    <a class="nav-link-prev nav-item nav-link rounded-left" href="">上一篇<i
+                    <a class="nav-link-prev nav-item nav-link rounded-left" id="id-article-prev" style="color: white">上一篇<i
                             class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
-                    <a class="nav-link-next nav-item nav-link rounded-right" href="blog-list.html">下一篇<i
+                    <a class="nav-link-next nav-item nav-link rounded-right" id="id-article-next" style="color: white">下一篇<i
                             class="arrow-next fas fa-long-arrow-alt-right"></i></a>
                 </nav>
 
@@ -292,7 +298,6 @@
     </section>
 </div>
 
-
 <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
 <div id="config-panel" class="config-panel d-none d-lg-block">
     <div class="panel-inner">
@@ -313,5 +318,43 @@
     </div><!--//panel-inner-->
 </div><!--//configure-panel-->
 </body>
+
+<script>
+    /**
+     * 上一篇
+     */
+    $("#id-article-prev").click(function () {
+        if (prvArtId == 0) {
+            alert("已经是第一篇了！");
+        } else {
+            articleDetails(prvArtId);
+        }
+    });
+
+    /**
+     * 下一篇
+     */
+    $("#id-article-next").click(function () {
+        if (nextArtId == 0) {
+            alert("已经是最后一篇了！");
+        } else {
+            articleDetails(nextArtId);
+        }
+    });
+
+    /**
+     * 获取url中artId的参数
+     * @param article
+     * @returns {string|null}
+     */
+    function getUrlParam(article) {
+        var reg = new RegExp("(^|&)" + article + "=([^&]*)(&|$)");  //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg); //匹配目标参数
+        if (r != null)
+            return unescape(r[2]);
+        return null;
+    }
+
+</script>
 </html>
 

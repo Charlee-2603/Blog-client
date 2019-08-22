@@ -2,25 +2,44 @@
 let curPage = 1;
 // 每页显示多少条数据
 let pageSize = 5;
+// 总条数
+let total = 0;
+
 let data;
 let columnList;
 let columnBtn;
 let articleTile;
+let articleList;
+let articleIndex = -1;
 
 $(function () {
 
-
+    /**
+     * 初始化页面
+     */
     loadIndex();
+
+    var pageTotal = 0;
 
     /**
      * 下一页
      */
     $("#id-a-next").click(function () {
-        ++curPage;
-        alert(curPage);
-        $("#id-div-articleList").html("");
-        loadIndex();
+        if (total % pageSize == 0) {
+            pageTotal = parseInt(total / pageSize);
+        } else {
+            pageTotal = parseInt((total / pageSize)) + 1;
+        }
+
+        if (curPage < pageTotal) {
+            ++curPage;
+            $("#id-div-articleList").html("");
+            loadIndex();
+        } else {
+            alert("已经是最后一页了");
+        }
     });
+
 
     /**
      * 上一页
@@ -31,12 +50,10 @@ $(function () {
         } else {
             --curPage;
             $("#id-a-prev").attr("disabled", false);
-            alert(curPage);
             $("#id-div-articleList").html("");
             loadIndex();
         }
     });
-
 });
 
 /**
@@ -82,13 +99,20 @@ function loadIndex() {
             $("#id-a-columnBtn").text(columnBtn[0].sysName);
 
             /**
+             * 总条数
+             */
+            total = result.total;
+            console.log("total", total);
+
+            /**
              * 首页文章
              */
-            var articleList = result.articleList;
+            articleList = result.articleList;
             console.log(articleList);
             $.each(articleList, function (i, val) {
                 $("#id-div-articleList").append("<div class='item mb-5'>" +
                     "<div class='media'>" +
+                    "<input type='hidden' value=\'" + i + "\'>" +
                     "<img id='id-img-titleImg' class='mr-3 img-fluid post-thumb d-none d-md-flex' alt='image'>" +
                     "<div class='media-body'>" +
                     "<h3 class='title mb-1'><a href='javascript:void(0)' id='id-h3-title'></a></h3>" +
@@ -99,6 +123,9 @@ function loadIndex() {
                     "</div>" +
                     "</div>" +
                     "</div>");
+
+                articleIndex = i;
+
                 $("#id-article").attr("id", "id-article" + i);
                 $("#id-article" + i).attr("value", articleList[i].artId);
 
