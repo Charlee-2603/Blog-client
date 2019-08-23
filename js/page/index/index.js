@@ -11,7 +11,6 @@ let columnBtn;
 let articleTile;
 let articleList;
 let articleIndex = -1;
-
 $(function () {
 
     /**
@@ -46,7 +45,7 @@ $(function () {
      */
     $("#id-a-prev").click(function () {
         if (curPage <= 1) {
-            alert("已是第一页");
+            alert("已经是第一页了");
         } else {
             --curPage;
             $("#id-a-prev").attr("disabled", false);
@@ -113,13 +112,13 @@ function loadIndex() {
                 $("#id-div-articleList").append("<div class='item mb-5'>" +
                     "<div class='media'>" +
                     "<input type='hidden' value=\'" + i + "\'>" +
-                    "<img id='id-img-titleImg' class='mr-3 img-fluid post-thumb d-none d-md-flex' alt='image'>" +
+                    "<img id='id-img-titleImg' class='mr-3 img-fluid post-thumb d-none d-md-flex' alt='image' style='height:100px; width:250px;border: 1px solid #eee'>" +
                     "<div class='media-body'>" +
                     "<h3 class='title mb-1'><a href='javascript:void(0)' id='id-h3-title'></a></h3>" +
                     "<div class='meta mb-1'><span class='date' id='id-span-time'></span>" +
                     "<span class='time' id='id-span-clickCount'></span>" +
                     "<span class='comment'><a id='id-span-comment'></a></span></div>" +
-                    "<div class='intro' id='id-div-artContent'></div>" +
+                    "<div class='intro' id='id-div-artIntroduction'></div>" +
                     "</div>" +
                     "</div>" +
                     "</div>");
@@ -144,8 +143,10 @@ function loadIndex() {
                 $("#id-span-clickCount" + i).html("浏览次数：" + articleList[i].artClickCount);
                 $("#id-span-comment").attr("id", "id-span-comment" + i);
                 $("#id-span-comment" + i).html(articleList[i].artComment + "人评论");
-                $("#id-div-artContent").attr("id", "id-div-artContent" + i);
-                $("#id-div-artContent" + i).html(subContent(articleList[i].artContent));
+
+                $("#id-div-artIntroduction").attr("id", "id-div-artIntroduction" + i);
+                $("#id-div-artIntroduction" + i).html(articleList[i].artIntroduction);
+
                 $("#id-artTitle").html(articleTile);
             });
         }
@@ -159,30 +160,4 @@ function loadIndex() {
  */
 function subCreateTime(artCreateTime) {
     return artCreateTime.substring(0, 16);
-}
-
-/**
- * 截取文章前95个字（省略秒）
- * @param artCreateTime
- * @returns {string}
- */
-function subContent(artContent) {
-    var str = artContent.substring(0, 120);
-    return str + "...";
-}
-
-/**
- * 文章搜索
- */
-function searchArticle() {
-    alert(1);
-    var value = $("#semail").val();
-    var hurl = "http://localhost:8888/sys/article/getArticleByCondition";
-    $.post(
-        hurl,
-        {"condition": value},
-        function (e) {
-            console.log(eval("(" + e + ")"));
-        }
-    );
 }

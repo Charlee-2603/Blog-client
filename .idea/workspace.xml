@@ -2,13 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f69ea8a-319a-489d-b2db-ffd46ec96d66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/wangEditor/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/blog-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/page/post/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/page/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/LANG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/cr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/kr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/kz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,27 +76,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PJrvFUUUp5uygQmfYgYgZ9r0e9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/wangEditor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\Blog\Client\js\wangEditor" />
+      <recent name="D:\Git\Blog\Client\js" />
+      <recent name="D:\Git\Blog\Client\fonts" />
+      <recent name="D:\Git\Blog\Client\css" />
+      <recent name="D:\Git\Blog\Client" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\Blog\Client\view" />
+      <recent name="D:\Git\Blog\Client\js\page" />
       <recent name="D:\Server\Blog" />
       <recent name="D:\Server\Blog\js" />
       <recent name="D:\Server\Blog\icon" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git\Blog\Client\js" />
-      <recent name="D:\Git\Blog\Client\css" />
-      <recent name="D:\Git\Blog\Client" />
-      <recent name="D:\Git\Blog\Client\images" />
-      <recent name="D:\Server\Blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,31 +117,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.blog-post.html">
-    <configuration name="blog-list.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/blog-list.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="blog-list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/blog-list.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="blog-post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/blog-post.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/index.html" useBuiltInWebServerPort="true">
+    <configuration name="blog-post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/blog-post.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Blog/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Client/post.html" useBuiltInWebServerPort="true">
+    <configuration name="post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/post.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.blog-post.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.blog-list.html (1)" />
         <item itemvalue="JavaScript Debug.post.html" />
+        <item itemvalue="JavaScript Debug.blog-post.html" />
+        <item itemvalue="JavaScript Debug.blog-list.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -110,7 +163,8 @@
       <workItem from="1566197497977" duration="11344000" />
       <workItem from="1566349326440" duration="30218000" />
       <workItem from="1566369405140" duration="3417000" />
-      <workItem from="1566372828054" duration="11522000" />
+      <workItem from="1566372828054" duration="15836000" />
+      <workItem from="1566471181040" duration="22963000" />
     </task>
     <task id="LOCAL-00001" summary="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善">
       <created>1566197052318</created>
@@ -140,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566369058244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="上一页下一页功能完成">
+      <created>1566462002584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566462002584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +224,7 @@
     <MESSAGE value="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善" />
     <MESSAGE value="上传文件功能完善" />
     <MESSAGE value="上一页下一页功能基本完成，但仍然需要完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="上一页下一页功能基本完成，但仍然需要完善" />
+    <MESSAGE value="上一页下一页功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="上一页下一页功能完成" />
   </component>
 </project>
