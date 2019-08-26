@@ -101,7 +101,7 @@
     font-size: 13px;
     font-variant: small-caps;
     color: #999;
-    background: url(../images/loading.gif) top left no-repeat
+    background: url(../../images/loading.gif) top left no-repeat
 }
 
 .file-object {
@@ -390,7 +390,7 @@
 }
 
 .file-thumb-loading {
-    background: url(../images/loading.gif) center center no-repeat content-box !important
+    background: url(../../images/loading.gif) center center no-repeat content-box !important
 }
 
 .file-drop-zone {
@@ -427,7 +427,7 @@
 }
 
 .file-uploading {
-    background: url(../images/loading-sm.gif) center bottom 10px no-repeat;
+    background: url(../../images/loading-sm.gif) center bottom 10px no-repeat;
     opacity: .65
 }
 
@@ -516,7 +516,7 @@
 }
 
 .file-loading[dir=rtl]:before {
-    background: url(../images/loading.gif) top right no-repeat;
+    background: url(../../images/loading.gif) top right no-repeat;
     padding-left: 0;
     padding-right: 20px
 }

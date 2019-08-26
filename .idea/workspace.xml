@@ -2,60 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f69ea8a-319a-489d-b2db-ffd46ec96d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/w-e-icon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/wangEditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/wangEditor/wangEditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/blog-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/login/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/login/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/blog-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/page/post/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/page/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/LANG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/cr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/kr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/kz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/uz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/locales/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fileinput-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fileinput-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fileinput.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fileinput.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/w-e-icon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/wangeditor/w-e-icon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/wangEditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/wangeditor/wangEditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/blog-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/blog-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,25 +64,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/wangEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts/bootstrap" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git\Blog\Client\js\wangEditor" />
-      <recent name="D:\Git\Blog\Client\js" />
-      <recent name="D:\Git\Blog\Client\fonts" />
-      <recent name="D:\Git\Blog\Client\css" />
-      <recent name="D:\Git\Blog\Client" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\Blog\Client\fonts\wangeditor" />
+      <recent name="D:\Git\Blog\Client\css\fileinput" />
+      <recent name="D:\Git\Blog\Client\css\bootstrap" />
       <recent name="D:\Git\Blog\Client\view" />
       <recent name="D:\Git\Blog\Client\js\page" />
-      <recent name="D:\Server\Blog" />
-      <recent name="D:\Server\Blog\js" />
-      <recent name="D:\Server\Blog\icon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\Blog\Client\fonts\bootstrap" />
+      <recent name="D:\Git\Blog\Client\view\login" />
+      <recent name="D:\Git\Blog\Client\css\login" />
+      <recent name="D:\Git\Blog\Client\images\login" />
+      <recent name="D:\Git\Blog\Client\js\wangEditor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.login.html">
     <configuration name="blog-list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/blog-list.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -133,15 +113,17 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Blog/index.html">
       <method v="2" />
     </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Client/view/post.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="JavaScript Debug.post.html" />
         <item itemvalue="JavaScript Debug.blog-post.html" />
-        <item itemvalue="JavaScript Debug.blog-list.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -165,6 +147,7 @@
       <workItem from="1566369405140" duration="3417000" />
       <workItem from="1566372828054" duration="15836000" />
       <workItem from="1566471181040" duration="22963000" />
+      <workItem from="1566555742461" duration="14832000" />
     </task>
     <task id="LOCAL-00001" summary="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善">
       <created>1566197052318</created>
@@ -226,5 +209,17 @@
     <MESSAGE value="上一页下一页功能基本完成，但仍然需要完善" />
     <MESSAGE value="上一页下一页功能完成" />
     <option name="LAST_COMMIT_MESSAGE" value="上一页下一页功能完成" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>mock://http://localhost:63343/Client/js/login/login.js</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
