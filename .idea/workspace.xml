@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f69ea8a-319a-489d-b2db-ffd46ec96d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/login/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/login/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fileinput-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fileinput-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fileinput.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fileinput.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/fileinput.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fileinput/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/w-e-icon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/wangeditor/w-e-icon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/wangEditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/wangeditor/wangEditor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/blog-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/blog-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +117,7 @@
       <workItem from="1566372828054" duration="15836000" />
       <workItem from="1566471181040" duration="22963000" />
       <workItem from="1566555742461" duration="14832000" />
+      <workItem from="1566821016335" duration="19557000" />
     </task>
     <task id="LOCAL-00001" summary="发布文章的页面设计（上传文件、输入标题、输入内容）；上传文件功能仍需完善">
       <created>1566197052318</created>
@@ -216,7 +186,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>mock://http://localhost:63343/Client/js/login/login.js</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

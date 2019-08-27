@@ -9,20 +9,23 @@
     <script src="../js/login/login.js"></script>
 </head>
 <body>
-<!-----start-main---->
+
 <div class="main">
     <div class="login-form">
         <h1>博客登录</h1>
         <div class="head" id="id-img">
             <img src="../images/login/user.png" style="width: 120px;height:120px"/>
         </div>
-        <form action="javascript:void(0)" method="post" id="id-form">
+        <form action="javascript:void(0)" id="id-form">
+            <input type="hidden" name="sessionId" id="session_id">
             <input id="id-username" name="user_name" type="text" class="text" placeholder="请输入博客帐号..." required>
             <input id="id-password" name="user_password" type="password" placeholder="请输入博客密码..." required>
 
-            <div style="display: flex">
-                <input id="id-code" name="user_code" type="text" placeholder="请输入验证码..." required style="width: 50%;">
-
+            <div style="display: flex;">
+                <input id="id-code" name="code" type="text" placeholder="请输入验证码..." maxlength="4" required
+                       style="width: 50%;">
+                <img id="captcha_img" alt="点击更换" title="点击更换" onclick="refresh()"
+                     style="border:none;border-radius:2px;margin-left: 10px;width: 38%;height: 50px">
             </div>
             <div style="text-align: center">
                 <span id="id-msg" style="font-size: 20px;color: red"></span>
